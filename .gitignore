@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+.Python
+.venv/
+venv/
+env/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+build/
+dist/
+*.egg-info/
+
+.DS_Store
+Thumbs.db
+
+# Future generated files and local CTF scratch work.
+generated/
+generated_solvers/
+tmp/
+scratch/
+ctf_work/
+*.log
